@@ -2,7 +2,7 @@
 title: "Shiny Apps"
 subtitle: "That People Actually Use"  
 author: "Nate Mockler"
-date: '`r Sys.Date()`'
+date: '10/3/2019'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -40,7 +40,7 @@ class: animated, lightSpeedIn
 ![](Shiny_Dashboard.png)
 ---
 #Did you know you can measure connections?
-![](https://docs.rstudio.com/shinyapps.io/images/application_metrics.png)
+![](application_metrics.png)
 ---
 #How many times was it accessed?
 --
@@ -54,11 +54,12 @@ background-position: 50% 80%
 ![](email2019.png)
 ---
 ##Where Did I Go Wrong?
-- I listened to my <span style="color:yellow">~~idiot~~</span> users
+- I believed my <span style="color:yellow">~~idiot~~</span> users
 
 --
 - Specifically I failed to do the following:
 --
+
 1. Collect distinct and measureable requirements
 2. Work with the team
 3. Give it in stages so they can give feedback
@@ -101,21 +102,24 @@ background-position: 50% 80%
 # Step 3: Whiteboard the UI!
 - Have **them** draw the UI on a whiteboard
 
-
 ![](IMG_1860.JPG)
 ---
 
 #Step 4: Wireframe the Whiteboard
 - Lots of free options out there.
 
-![](creed.png)
+![](Wireframe2.png)
 ---
-
-#Step 5: Program the app?
+#Step 5: Write out a Charter:
+![](charter.png)
+---
+#Step 6: Program the app?
 - I like to program the entire UI (no server) and let them play with it before I start the real coding.
+
+![](Shiny_In_Action.gif)
 ---
 background-image: url(https://media.giphy.com/media/3o84sq21TxDH6PyYms/giphy.gif)
-# Step 4: Don't let them add anything
+# Warning: Don't let them add anything
 - Once they get a taste of an additional feature, they will **never stop**.
 ---
 background-image: url(https://media.giphy.com/media/a79Jr229u3bzO/giphy.gif)
@@ -124,8 +128,8 @@ background-image: url(https://media.giphy.com/media/a79Jr229u3bzO/giphy.gif)
 background-image: url(https://media.giphy.com/media/msKNSs8rmJ5m/giphy.gif)
 # Into this!
 ---
-
-
+#Questions/Comments?
+![](question_pie_chart.png)
 
 
 
